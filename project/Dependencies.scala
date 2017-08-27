@@ -31,7 +31,8 @@ object Dependencies {
     "org.scalikejdbc"    %% "scalikejdbc"          % "3.0.2",
     "org.scalikejdbc"    %% "scalikejdbc-config"   % "3.0.2",
     "mysql"              %  "mysql-connector-java" % "5.1.16",
-    "org.apache.commons" %  "commons-dbcp2"        % "2.1.1"
+    "com.h2database"     %  "h2"                   % "1.4.+",  // For dev and tests
+    "org.apache.commons" %  "commons-dbcp2"        % "2.1.1",
   )
 
 }
